@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "GrAnton78",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "parcel": "^2.12.0",
+    "typescript-eslint": "^8.2.0"
   },
   "dependencies": {
     "express": "^4.19.2",
     "pg": "^8.12.0"
-  }
+  },
+  "description": ""
 }
